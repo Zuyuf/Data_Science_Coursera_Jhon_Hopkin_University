@@ -3,5 +3,5 @@
 
 ### WEEK 1 - Intro, Reading Various Files
 ### WEEK 2 - SQL, Web, APIs
-### WEEK 3 
+### WEEK 3 - Data Cleaning
 ### WEEK 4 
