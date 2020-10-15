@@ -106,10 +106,3 @@ dbRemoveTable(con, "trial")
 
 # disconnect from the database
 dbDisconnect(con)
-
-library(BiocManager)
-BiocManager::install("rhdf5")
-
-
-install.packages("BiocManager", lib="C:/Program Files/R/R-4.0.2/library/" )
-BiocManager::install("rhdf5")
