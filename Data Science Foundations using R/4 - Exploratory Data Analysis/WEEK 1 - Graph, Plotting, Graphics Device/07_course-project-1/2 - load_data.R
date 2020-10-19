@@ -8,8 +8,6 @@
 
 
 load_data <- function() {
-     
-if (!file.exists("./resource/PowerConsumption.csv")) {
 
      # Read the Data to a data frame
      data <- read.csv( "./resource/household_power_consumption.txt",
@@ -30,8 +28,6 @@ if (!file.exists("./resource/PowerConsumption.csv")) {
      
      # reset row names
      rownames(data) <- 1 : nrow(data)
-}
 
-     # return the data
-     data
+     return (data)
 }
